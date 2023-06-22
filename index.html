@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+    <title>cuestionario</title>
+    <link rel="stylesheet"href="style.css" />
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1> CUESTIONARIO</h1>
+            <p>Responda las siguientes preguntas</p>
+        </header>
+        <section>
+            <div id="resultado"></div>
+            <form name="formulario" onsubmit="return VerificarRespuestas()">
+
+
+                <h3>1. Cuáles de las siguientes declaraciones son propiedades o atributos</h3>
+
+                <input type="radio" name="r1" value="a" /> a. h1 <br />
+                <input type="radio" name="r1" value="b" /> b. background-color <br />
+                <input type="radio" name="r1" value="c" /> c. span <br />
+
+                <h3>2. la Propiedad con la que se define le comportamiento de un contenedor es:</h3>
+
+                <input type="radio" name="r2" value="a" /> a. display <br />
+                <input type="radio" name="r2" value="b" /> b. position <br />
+                <input type="radio" name="r2" value="c" /> c. color <br />
+
+                <h3>3. La etiqueta para definir un texto como importante es </h3>
+
+                <input type="radio" name="r3" value="a" /> a. single <br />
+                <input type="radio" name="r3" value="b" /> b. strong <br />
+                <input type="radio" name="r3" value="c" /> c. important <br />
+
+                <h3>4. Cuáles de las siguientes declaraciones es un selector </h3>
+
+                <input type="radio" name="r4" value="a" /> a. p <br />
+                <input type="radio" name="r4" value="b" /> b. font-family <br />
+                <input type="radio" name="r4" value="c" /> c. 50px <br />
+
+                <h3>5. Con qué propiedad se define el espacio entre el borde de un elemento y los elementos que lo rodean </h3>
+
+                <input type="radio" name="r5" value="a" /> a. border <br />
+                <input type="radio" name="r5" value="b" /> b. margin <br />
+                <input type="radio" name="r5" value="c" /> c. padding <br />
+
+                <input type="button" value="Enviar" onclick="VerificarRespuestas()" />
+
+            </form>
+        </section>
+    </div>
+ 
+  
+    <script src="Script1.js"></script>
+
+</body>
+</html>
